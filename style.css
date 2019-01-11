@@ -1,0 +1,107 @@
+* {
+	margin:0;
+	padding:0;
+}
+
+
+body {
+	margin:0;
+	padding:0;
+	line-height: 1.6;
+}
+p {color:grey; font-family:arial;}
+#title {
+	position: absolute;
+	font-family: 'Staatliches', cursive;
+	letter-spacing: 10px;
+	font-size: 100px;
+	color: white;
+	left:50%;
+	top: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	
+}
+#under {
+	position: absolute;
+	font-family: 'Staatliches', cursive;
+	letter-spacing: 5px;
+	font-size: 25px;
+	color: white;
+	left:50%;
+	top: 60%;
+	transform: translateX(-50%) translateY(-50%);
+}
+
+#landing {
+	background-image:url("shlok.jpg");
+	background-repeat: no-repeat;
+	background-color: white;
+	height:100vh;
+	width:100vw;
+	background-position: center;
+	background-size:cover;
+}
+#line {
+	position:absolute;
+	width: 85px; 
+	height: 5px;
+	background-color: white;
+	margin:0;
+	padding:0;
+	left:30%;
+	top: 60%;
+	transform: translateX(0%) translateY(-50%);
+}
+#line {
+	position:absolute;
+	width: 85px; 
+	height: 5px;
+	background-color: white;
+	margin:0;
+	padding:0;
+	left:30%;
+	top: 60%;
+	transform: translateX(0%) translateY(-50%);
+}
+#line2 {
+	position:absolute;
+	width: 85px; 
+	height: 5px;
+	background-color: white;
+	margin:0;
+	padding:0;
+	left:30%;
+	top: 60%;
+	transform: translateX(610%) translateY(-50%);
+}
+#particles-js {
+	background-repeat: no-repeat;
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	background-position: center;
+	background-size: cover;
+	background-position: 50% 50%;
+}
+.nav {
+	background-position: top;
+	font-family: 'Staatliches', cursive;
+	font-size: 25px;
+	text-align: center;
+	padding: 20px 0px 20px 0px;
+}
+.nav li {
+	display: inline-table;
+	padding-right: 30px;
+	padding-left: 30px;
+	padding-top:0;
+}
+.nav li a {
+	text-decoration: none;
+	color: white;
+}
+
+.nav li a:hover {
+	text-decoration: overline;
+	color: blue;
+}

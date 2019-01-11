@@ -1,0 +1,126 @@
+* {
+	margin:0;
+	padding:0;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+a img {
+	text-decoration: none;
+}
+
+body {
+	margin:0;
+	padding:0;
+	line-height: 1.6;
+}
+
+#landing {
+	background-color: #f7f7f7;
+	height:100vh;
+	width:100vw;
+	background-position: center;
+	background-size:cover;
+}
+#title {
+	position: relative;
+	font-family: 'Staatliches', cursive;
+	letter-spacing: 10px;
+	font-size: 55px;
+	color: black;
+	text-align: center;
+	padding-top: 45px;
+}
+#about {
+	font-family: 'Staatliches', cursive;
+	font-size: 21px;
+	letter-spacing: 3.45px;
+	position: relative;
+	text-align: center;
+	padding-top: 50px;
+}
+#paragraph {
+	font-family: 'arial', cursive;
+	font-size: 20px;
+	padding-top: 30px;
+	padding-left: 220px;
+	padding-right: 222px;
+	letter-spacing: 0.25px;
+	position: relative;
+	text-align: justify;
+}
+#contact {
+	font-family: 'Staatliches', cursive;
+	font-size: 21px;
+	letter-spacing: 3.45px;
+	position: relative;
+	text-align: center;
+	padding-top: 100px;
+}
+
+.icons li {
+	list-style: none;
+	margin: 10px 30px;
+	display: inline-block;
+	font-size: 38px;
+	text-align: center;
+	padding-right: 30px;
+	padding-left: 30px;
+}
+.icons {
+	background-position: top;
+	text-align: center;
+	padding: 20px 20px 20px 20px;
+}
+.icons li a {
+	text-decoration: none;
+	color: black;
+}
+.icons li a:hover {
+	color: #100087;
+}
+
+#divider {
+	position:absolute;
+	width: 552.5px; 
+	height: 1.5px;
+	background-color: black;
+	margin-right: 50%;
+	margin-left: 50%;
+	margin-top: 1%;
+}
+#divider2 {
+	position:absolute;
+	width: 550px; 
+	height: 1.5px;
+	background-color: black;
+	margin-right: 80%;
+	margin-left: 14.5%;
+	margin-top: 1%;
+}
+
+.nav {
+	background-position: top;
+	font-family: 'Staatliches', cursive;
+	font-size: 25px;
+	text-align: center;
+	padding: 20px 0px 20px 20px;
+}
+.nav li {
+	display: inline-table;
+	text-align:center;
+	padding-right: 30px;
+	padding-left: 30px;
+	padding-top:0;
+}
+.nav li a {
+	text-decoration: none;
+	color: black;
+}
+
+.nav li a:hover {
+	text-decoration: overline;
+	color: blue;
+}
+.li:hover {
+	opacity: 80%;
+}
